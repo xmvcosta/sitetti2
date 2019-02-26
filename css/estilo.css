@@ -6,21 +6,59 @@
     font-size: 1.1rem;
 }
 
-#menu{
-    background: blue;
+#topo{
+    display: flex;
 }
 
 #logotopo{
     background: green;
-    width: 150px;
-    
+    width: 106px;
+    height: 106px;
 }
+
 .horariofunc{ 
+    width: 100%;
     background: #999;
-    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
 }
 
+#menu{
+    background: blue;
+    list-style: none;
+}
+
+.bars{
+    width: 60px;
+    height: 60px;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.bar{
+    width: 30px;
+    height: 2px;
+    background: #fff;
+}
+
+#menu-list{
+    background: #333;
+    
+}
+#menu-list li{
+    color: red;
+    line-height: 2rem;
+}
+
+/*CORPO SITE*/
 #corposite{
     max-width: 400px;
     margin: 0 auto;
