@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.1rem;
+    
+}
+
+
+header{
+    background: red;
+    display: flex; 
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background: green;
+    
+    text-align: center;
+    line-height: 100px;
+}
+.horariofunc{ 
+    background: #999;   
+    
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+    
+}
+
+
+#corposite{
+    max-width: 400px;
+    margin: 0 auto;
+    background: green;
+}
+
+.principal{
+
+}
+
+.container{
+    
+
+}
+
+.box{
+    background: red;
+    margin: 5px;
+    flex: 1;
+}
+
+.box h1{
+    background: #555;
+}
+
+.box img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
