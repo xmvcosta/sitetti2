@@ -40,32 +40,39 @@ body{
 }
 
 .bars{
-    flex: 1;
+    width:60px;
+    height:60px;
     background: green;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    align-content: center;
+    
     
 
 }
 .bar{
-    width: 30px;
-    height: 2px;
+    width: 80%;
+    height: 3px;
     background: #fff;
 }
 
 #bars-lateral{
-    flex:4;
-    text-align: center;
+    width: auto;
     background: #555;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 1rem;
-     
+    justify-content: space-evenly;
+    border: 1px solid red;     
+    
 }
+
+#bars-lateral div{
+    border: 1px solid #fff;
+}
+
 
 #menu-list{
     border: 1px solid red;
