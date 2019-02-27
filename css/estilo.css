@@ -5,6 +5,9 @@
     color: #fff;
     font-size: 1.1rem;
 }
+body{
+    background-image:linear-gradient(-90deg,#2376ae , #123456);
+}
 
 #topo{
     display: flex;
@@ -16,7 +19,7 @@
     height: 106px;
 }
 
-.horariofunc{ 
+#paineltop{ 
     width: 100%;
     background: #999;
     display: flex;
@@ -27,14 +30,17 @@
     
 }
 
-#menu{
-    background: blue;
+#painelmenu{
+    
     list-style: none;
 }
 
+#menu{
+    display: flex;
+}
+
 .bars{
-    width: 60px;
-    height: 60px;
+    flex: 1;
     background: green;
     display: flex;
     flex-direction: column;
@@ -49,12 +55,24 @@
     background: #fff;
 }
 
-#menu-list{
-    background: #333;
-    
+#bars-lateral{
+    flex:4;
+    text-align: center;
+    background: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+     
 }
+
+#menu-list{
+    border: 1px solid red;
+}
+
 #menu-list li{
-    color: red;
+    color: #fff;
     line-height: 2rem;
 }
 
@@ -62,7 +80,7 @@
 #corposite{
     max-width: 400px;
     margin: 0 auto;
-    background: green;
+    
 }
 
 #principal{
@@ -87,7 +105,7 @@
     height: auto;
     margin: 0 auto;
 }
-
+/*RODAPE SITE*/
 footer{
     background: #333;
     
