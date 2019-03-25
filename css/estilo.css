@@ -21,8 +21,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*TOPOSITE*/
 #toposite{
-    
-    background: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,12 +37,11 @@ h1,h2,h3,h4,h5,h6 {
         width: 60px;
         height: 60px;
         margin: 10px;
-        border: 1px solid yellow;
-        background: green;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        font-weight: bold;
     }
         .bars{
             height: 2px;
