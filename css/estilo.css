@@ -26,6 +26,7 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     position: sticky;
     top: 0;
+    background-image:linear-gradient(260deg, #2376ae 0%, #0e0872 100%);
 } 
     .topologo {
         width: 116px;
