@@ -94,15 +94,25 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
 }
 
-
 .box{
     background:#2b4c99;
     margin: 5px;
-    flex: 1;
+    text-shadow: 2px 2px #000;
 }
 
 .box h1{
     background: #555;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box p{
+    text-indent: 20px;
+    line-height: 1.6;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
 }
 
 .box img{
@@ -110,6 +120,11 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+.box address{
+    display: inline;
+    
 }
 /*RODAPESITE*/
 #rodapesite{
