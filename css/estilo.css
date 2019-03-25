@@ -26,10 +26,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #logotopo {
-    
     width: 116px;
     height: 116px;
-    
 }
 
 #paineltop{ 
@@ -43,6 +41,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 #painelmenu{
     list-style: none;
+    background: #555;
 }
 #menu{
     display: flex;
@@ -53,12 +52,10 @@ h1,h2,h3,h4,h5,h6 {
 .bars{
     width:60px;
     height:60px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 .bar{
     width: 80%;
@@ -67,20 +64,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #bars-lateral{
-    background: #555;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border: 1px solid red;
     flex:1;     
-    
 }
 
 #bars-lateral div{
     border: 1px solid #fff;
 }
-
 
 #menu-list{
     border: 1px solid red;
@@ -95,7 +90,6 @@ h1,h2,h3,h4,h5,h6 {
 #corposite{
     max-width: 576px;
     margin: 0 auto;
-    
 }
 
 #principal{
@@ -107,7 +101,6 @@ h1,h2,h3,h4,h5,h6 {
     text-justify: inter-word;
     color: #fff;
     font-size: 1.1rem;
-    
 }
 
 .box{
@@ -129,7 +122,6 @@ h1,h2,h3,h4,h5,h6 {
 /*RODAPE SITE*/
 footer{
     background: #333;
-    
 }
 
 /* Extra small devices (portrait phones, less than 576px)
