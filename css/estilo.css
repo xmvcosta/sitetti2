@@ -30,14 +30,14 @@ h1,h2,h3,h4,h5,h6 {
     top: 0;
 } 
     .topologo {
-        width: 100px;
-        height: 100px;
+        width: 116px;
+        height: 116px;
         padding: 10px;
     }
 
-   .menubars{
-        width: 50px;
-        height: 50px;
+   .topomenubars{
+        width: 60px;
+        height: 60px;
         margin: 10px;
         border: 1px solid yellow;
         background: green;
@@ -50,13 +50,22 @@ h1,h2,h3,h4,h5,h6 {
             height: 2px;
             width: 80%;
             background:#fff;
-
         }
 
-
-
-    .menulinks{
+    .topomenulinks{
         display: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+
+    .topomenulinks a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .topomenulinks ul, li{
+        list-style: none;
     }
 
 /*BANNERSITE*/
@@ -147,10 +156,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  
-    .bars{
+@media (min-width: 768px) { 
+    .topomenubars{
         display: none;
-    }
+    } 
+    .topomenulinks{
+        display: block;
+    } 
+        .topomenulinks ul{
+            display: flex;
+            
+        }
+        .topomenulinks li{
+            margin: 10px;
+        }
+    
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
