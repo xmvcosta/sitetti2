@@ -26,13 +26,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #logotopo {
-    background: green;
+    
     width: 116px;
     height: 116px;
-    background-image: url("../img/logo-TTI-2019.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
+    
 }
 
 #paineltop{ 
@@ -42,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    flex:1;
 }
 #painelmenu{
     list-style: none;
@@ -56,7 +53,7 @@ h1,h2,h3,h4,h5,h6 {
 .bars{
     width:60px;
     height:60px;
-    background: green;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +72,8 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid red;     
+    border: 1px solid red;
+    flex:1;     
     
 }
 
@@ -134,17 +132,26 @@ footer{
     
 }
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap*/
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  
+    .bars{
+        display: none;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
