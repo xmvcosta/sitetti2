@@ -85,6 +85,12 @@ h1,h2,h3,h4,h5,h6 {
 #bannersite{
     background: #777;
     height: 30vh;
+    background-image: url(../img/manutencao-em-informatica.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
 
 }
 
