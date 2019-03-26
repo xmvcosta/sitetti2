@@ -191,7 +191,7 @@ h1,h2,h3,h4,h5,h6 {
 	}
 
 	.menuMobile {
-		display:flex;
+		display:flex !important;
 		flex-direction: column;
 		justify-content:space-around;
 	}
@@ -214,6 +214,9 @@ h1,h2,h3,h4,h5,h6 {
     
     #rodapeitens{
         display: flex;
+    }
+    nav ul {
+        display: flex !important;
     }
     
 }
