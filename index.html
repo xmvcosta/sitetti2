@@ -5,31 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>TTI Trevisan Tecnologia Informática</title>
-    
-    <script type="text/javascript">
-        window.onload = function(){
-            document.querySelector(".menuMobile").addEventListener("click", function(){
-                if(document.querySelector(".menu nav ul").style.display == 'flex') {
-                    document.querySelector(".menu nav ul").style.display = 'none';
-                } else {
-                    document.querySelector(".menu nav ul").style.display = 'flex';
-                }
-            });
-        };
-    </script>
-
-
 </head>
 <body>
     <!--TOPOSITE-->
     <header id="toposite">
         <div class="container">
-            <div class="topologo">
+            <div class="topologo wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                 <a href="index.html"><img src="img/logo2-TTI-2019.png" alt="Trevisan Tecnologia Informática Logo"></a>
             </div>
             <div class="menu">
-                <nav>
+                <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="menuMobile">
                         <div>menu</div>
                         <div class="mm_line"></div>
@@ -56,20 +43,27 @@
 
     <!--CORPOSITE-->    
     <main id="corposite">
-        <section id="principal" class="container">
+        <section id="principal" class="container wow bounceInUp">
             <article class="box">
                 <h1>Quem Somos</h1>
                 <img src="img/desenvolvimento-software.jpeg" alt="">
-                <p>A T.T.I. Trevisan Tecnologia Informática, fundada em 01/07/1986, tem se destacado no desenvolvimento de software ERP - gestão empresarial, manutenção de computador, notebook, impressora, no-break, visita técnica na empresa ou residência do cliente, comercialização de equipamentos de informática, projeto completo de infraestrutura de rede, servidores windows e linux, desktop, roteadores.</p> 
-                <p>Possuimos também setor de identificação confeccionando crachás e carteirinhas com códigos de barra em PVC para controle de acesso.</p>
-                <p>Para atender os objetivos da T.T.I. os seus profissionais têm formação Técnica Eletrônica, Especialistas certificados em Linux e Microsoft e a nível de Pós Graduação na USP.</p>
-                <p>Venha conhecer nossos produtos e serviços em nossa sede própria na<address>Av. Zelina 1253, São Paulo – SP, Cep 03143-003,</address> ou solicite através do telefone (011) 2341-9299 a presença de um consultor para melhor assessorá-lo.</p>
+                <p>A T.T.I. Trevisan Tecnologia Informática, fundada em 01/07/1986, tem se destacado no desenvolvimento de software
+                    ERP - gestão empresarial, manutenção de computador, notebook, impressora, no-break, visita técnica na empresa ou
+                    residência do cliente, comercialização de equipamentos de informática, projeto completo de infraestrutura de
+                    rede, servidores windows e linux, desktop, roteadores.</p>
+                <p>Possuimos também setor de identificação confeccionando crachás e carteirinhas com códigos de barra em PVC para
+                    controle de acesso.</p>
+                <p>Para atender os objetivos da T.T.I. os seus profissionais têm formação Técnica Eletrônica, Especialistas
+                    certificados em Linux e Microsoft e a nível de Pós Graduação na USP.</p>
+                <p>Venha conhecer nossos produtos e serviços em nossa sede própria na<address>Av. Zelina 1253, São Paulo – SP, Cep
+                        03143-003,</address> ou solicite através do telefone (011) 2341-9299 a presença de um consultor para melhor
+                    assessorá-lo.</p>
             </article>
         </section>
     </main>
     <!--RODAPESITE-->
     <footer id="rodapesite">
-        <div class="container flexcolumn">
+        <div class="container flexcolumn wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s">
             <div id="rodapeitens">
                 <div class="rodapeatendimento">
                     <p>Horário de Funcionamento:</p>
@@ -93,6 +87,10 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/jstti.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
