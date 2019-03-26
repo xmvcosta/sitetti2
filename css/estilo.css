@@ -120,13 +120,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .box p{
-    text-indent: 20px;
+    text-indent: 30px;
     text-align: justify;
     line-height: 1.6;
     padding: 5px;
     margin: 5px;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.1rem;
+    word-break: break-word;
+    word-spacing: 5px;
+    
     
 }
 
