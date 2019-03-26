@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap*/
  
-@media(max-width:600px){
+@media(max-width:767px){
     nav ul {
 		flex-direction: column;
 		display:none;
