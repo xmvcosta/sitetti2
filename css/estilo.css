@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6 {
         padding:15px;
         text-decoration:none;
         text-transform:uppercase;
-        color:#727272;
+        color:#fff;
     }
     nav .active a,
     nav a:hover {
@@ -77,8 +77,8 @@ h1,h2,h3,h4,h5,h6 {
 
     .menuMobile {
         display:none;
-        width:40px;
-        height:40px;
+        width:60px;
+        height:60px;
         margin-top:40px;
         margin-bottom:40px;
         margin-right:20px;
@@ -86,48 +86,9 @@ h1,h2,h3,h4,h5,h6 {
     
     .mm_line {
         height:3px;
-        background-color:#39aae1;
+        background-color:#fff;
+        width: 80%;
     }
-
-
-    /*
-   .topomenubars{
-        width: 60px;
-        height: 60px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        font-weight: bold;
-    }
-        .bars{
-            height: 2px;
-            width: 80%;
-            background:#fff;
-        }
-
-    .topomenulinks{
-        display: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        background-color: #2b4c99;
-        
-        
-    }
-
-    .topomenulinks a{
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .topomenulinks ul, li{
-        list-style: none;
-        margin: 10px;
-    }*/
 
 /*BANNERSITE*/
 #bannersite{
@@ -138,8 +99,6 @@ h1,h2,h3,h4,h5,h6 {
     background-size: cover;
     display: flex;
     justify-content: center;
-    
-
 }
 
 /*CORPOSITE*/
@@ -223,7 +182,7 @@ h1,h2,h3,h4,h5,h6 {
 		position: absolute;
 	    left: 0;
 	    width: 100%;
-	    background-color: #FFFFFF;
+	    background-color: #2b4c99;
 	}
 
 	header {
@@ -236,7 +195,7 @@ h1,h2,h3,h4,h5,h6 {
 		justify-content:space-around;
 	}
 }
-}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
@@ -251,19 +210,6 @@ h1,h2,h3,h4,h5,h6 {
     .container{
         width: 768px;
     }
-    .topomenubars{
-        display: none;
-    } 
-    .topomenulinks{
-        display: block;
-    } 
-        .topomenulinks ul{
-            display: flex;
-            
-        }
-        .topomenulinks li{
-            margin: 10px;
-        }
     
     #rodapeitens{
         display: flex;
