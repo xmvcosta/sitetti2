@@ -108,9 +108,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .box{
-    background:#2b4c99;
+    background:#fff;
+    color: #000;
     margin: 5px;
-    text-shadow: 2px 2px #000;
+    
 }
 
 .box h1{
@@ -120,6 +121,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .box p{
+    /*text-shadow: 2px 2px #999;*/
+    font-weight: 500;
     text-indent: 30px;
     text-align: justify;
     line-height: 1.6;
@@ -127,7 +130,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 5px;
     word-break: break-word;
     word-spacing: 5px;
-    
     
 }
 
@@ -152,7 +154,6 @@ h1,h2,h3,h4,h5,h6 {
     padding: 5px;
     line-height: 1.6;
     display: flex;
-    
     justify-content: center;
 }
     #rodapesite a{
