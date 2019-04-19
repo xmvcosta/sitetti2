@@ -20,12 +20,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*classes auxiliares*/
 .container{
-    width:578px;
-    /*
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    */
+    width:600px;
+    margin: 0 auto;
 }
 .flexcontainer{
     display:flex;
@@ -39,18 +35,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /*TOPOSITE*/
-#toposite{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-image:linear-gradient(260deg, #2376ae 0%, #0e0872 100%);
+#topositeint{
+       
+       /*align-items: center;*/
+       
 } 
-    .topologo {
+    #topologo {
         width: 116px;
         height: 116px;
         padding: 10px;
+        background: green;
+        
+    }
+    #topocontato{
+        /*flex:1;*/
+        
+        background: red;
+        text-align: center;
     }
 
     .menu {
@@ -101,8 +102,10 @@ h1,h2,h3,h4,h5,h6 {
     background-image: url(../img/manutencao-informatica.jpg);
     background-position: center;
     background-size: cover;
+    /*
     display: flex;
     justify-content: center;
+    */
 }
 /* Slideshow container */
 .slideshow-container {
