@@ -176,6 +176,22 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     }
 
+
+/*FORMULÀRIO*/
+#myForm{
+    background:red;
+    padding:1em;
+}
+#myForm .form-group{
+    padding-bottom:.5em;
+}
+#myForm label{
+    display:block;
+}
+#myForm input[type="text"], #myForm textarea{
+    padding:.5em;
+    width: 100%;
+}
 /*MEDIAS*/
 /*MEDIA MOBILE*/
 @media only screen and (max-width: 576px) {
