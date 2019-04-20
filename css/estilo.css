@@ -1,12 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*RESET BÁSICO*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/*GLOBAL*/
 body{
     background-image:linear-gradient(260deg, #2376ae 0%, #0e0872 100%);
-    font-size: 1.1rem;
-    font-family: 'Roboto',Arial, sans-serif;
+    font-size: 1rem;
+    font-family: Verdana, Arial, sans-serif;
     color: #fff;
 }
 img{
@@ -16,11 +15,11 @@ img{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Verdana', sans-serif; 
+    font-family: "Arial Black", sans-serif; 
 }
-/*classes auxiliares*/
+
+/*CLASSES AUXILIARES*/
 .container{
-    
     width:95%;
     margin: 0 auto;
     overflow: hidden;
@@ -28,7 +27,6 @@ h1,h2,h3,h4,h5,h6 {
 .flexcontainer{
     display:flex;
 }
-
 .flexwrap{
     flex-wrap: wrap;
 }
@@ -38,11 +36,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /*TOPOSITE*/
 #topositeint{
-    
        justify-content: space-between;
        background: #000;
        /*align-items: center;*/
-       
 } 
     #topologo {
         width: 116px;
@@ -50,16 +46,13 @@ h1,h2,h3,h4,h5,h6 {
         padding: 10px;
         background: green;
         border: 1px solid #fff;
-        
     }
     #topocontato{
-        
         flex:1;
         background: red;
         text-align: center;
         border: 1px solid yellow;
     }
-
     .menu {
         display:flex;
         align-items:center;
@@ -85,7 +78,6 @@ h1,h2,h3,h4,h5,h6 {
         background-color:#39aae1;
         color:#FFFFFF;
     }
-
     .menuMobile {
         display:none;
         width:60px;
@@ -98,7 +90,6 @@ h1,h2,h3,h4,h5,h6 {
         align-items: center;
         justify-content: center;
     }
-    
     .mm_line {
         height:3px;
         background-color:#fff;
@@ -114,7 +105,6 @@ h1,h2,h3,h4,h5,h6 {
     background-size: cover;
 }
 
-
 /*CORPOSITE*/
 #corposite{
     display: flex;
@@ -124,8 +114,7 @@ h1,h2,h3,h4,h5,h6 {
 .box{
     background:#ecf0f1;
     color: #000;
-    margin: 5px;
-    
+    margin: .5em;
 }
 
 .box h1{
@@ -136,14 +125,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .box p{
     /*text-shadow: 2px 2px #999;*/
-    font-weight: 500;
-    text-indent: 30px;
+    font-weight: normal;
+    text-indent: 2em;
     text-align: justify;
     line-height: 1.6;
     padding: 5px;
     margin: 5px;
     word-break: break-word;
-    word-spacing: 5px;
+    word-spacing: .1em;
     
 }
 
@@ -156,8 +145,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .box address{
     display: inline;
-    
 }
+
 /*RODAPESITE*/
 #rodapesite{
     background-color:#1e1e1e;
@@ -194,7 +183,6 @@ h1,h2,h3,h4,h5,h6 {
  
 }
 
- 
 @media(max-width:767px){
     nav ul {
 		flex-direction: column;
@@ -216,13 +204,11 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .container{
         width: 90%;
     }
-
 }
 
 /*MEDIA TABLETS*/ 
