@@ -38,6 +38,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /*TOPOSITE*/
 #topositeint{
+    
        justify-content: space-between;
        background: #000;
        /*align-items: center;*/
@@ -53,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
     }
     #topocontato{
         
-        
+        flex:1;
         background: red;
         text-align: center;
         border: 1px solid yellow;
