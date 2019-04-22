@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6 {
         background: red;
         text-align: center;
         border: 1px solid yellow;
+        justify-content: center;
     }
     .menu {
         display:flex;
