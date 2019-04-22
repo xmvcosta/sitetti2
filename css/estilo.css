@@ -197,7 +197,7 @@ h1,h2,h3,h4,h5,h6 {
 #myForm label{
     display:block;
 }
-#myForm input[type="text"], #myForm textarea{
+#myForm input[type="text"], #myForm input[type="email"], #myForm textarea{
     padding:.5em;
     width: 100%;
 }
