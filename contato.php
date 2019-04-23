@@ -14,14 +14,12 @@
 </head>
 
 <body>
-
     <!--TOPOSITE-->
     <header id="toposite">
         <?php
             include "topo.html";
         ?>
     </header>
-
     <!--BANNERSITE-->
     <section id="bannersite">
         <?php
@@ -32,10 +30,10 @@
     <!--CORPOSITE-->
     <main id="corposite">
         <?php
-            include "quemsomos.html"
+            include "contato.html"
         ?>
     </main>
-
+  
     <!--RODAPESITE-->
     <footer id="rodapesite">
         <?php

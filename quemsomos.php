@@ -14,14 +14,12 @@
 </head>
 
 <body>
-
     <!--TOPOSITE-->
     <header id="toposite">
         <?php
             include "topo.html";
         ?>
     </header>
-
     <!--BANNERSITE-->
     <section id="bannersite">
         <?php
