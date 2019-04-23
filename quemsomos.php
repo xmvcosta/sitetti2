@@ -17,27 +17,27 @@
     <!--TOPOSITE-->
     <header id="toposite">
         <?php
-            include "topo.html";
+            include "pgs/topo.html";
         ?>
     </header>
     <!--BANNERSITE-->
     <section id="bannersite">
         <?php
-            include "banner.html";
+            include "pgs/banner.html";
         ?>
     </section>
 
     <!--CORPOSITE-->
     <main id="corposite">
         <?php
-            include "quemsomos.html"
+            include "pgs/quemsomos.html"
         ?>
     </main>
 
     <!--RODAPESITE-->
     <footer id="rodapesite">
         <?php
-            include "rodape.html";
+            include "pgs/rodape.html";
         ?>
     </footer>
 
