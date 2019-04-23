@@ -18,38 +18,15 @@
 <body>
     <!--TOPOSITE-->
     <header id="toposite">
-        <div id="topositeint" class="container flexcontainer wow slideInLeft">
-            <div id="topologo">
-                <a href="index.html"><img src="img/logo2-TTI-2019.png" alt="Trevisan Tecnologia Informática Logo"></a>
-            </div>
-            <div id="topocontato" class="flexcontainer flexcolumn">
-                <p>Trevisan Tecnologia Informática</p>
-                <p>11 2341-9299</p>
-            </div>
-        </div>
-        <div class="menu container">
-            <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-                <div class="menuMobile">
-                    <div>menu</div>
-                    <div class="mm_line"></div>
-                    <div class="mm_line"></div>
-                    <div class="mm_line"></div>
-                </div>
-                <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="quemsomos.html">Quem Somos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <?php
+            include "topo.html";
+        ?>
     </header>
     <!--BANNERSITE-->
     <section id="bannersite">
-        <div class="container wow rollIn" data-wow-duration="1s" data-wow-delay="0.5s">
-            BANNER SLIDE SHOW
-        </div>
+        <?php
+            include "banner.html";
+        ?>
     </section>
 
     <!--CORPOSITE-->
@@ -108,28 +85,9 @@
 
     <!--RODAPESITE-->
     <footer id="rodapesite">
-        <div class="container flexcolumn">
-            <div id="rodapeitens">
-                <div class="rodapeatendimento wow flipInX" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <p>Horário de Funcionamento:</p>
-                    <p>Segunda a sexta-feira das 08:30 as 18:00 horas</p>
-                </div>
-                <div class="rodapeendereco wow flipInX" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <p>Endereço:</p>
-                    <p>Avenida Zelina, 1253, Vila Zelina - São Paulo - SP</p>
-                    <p>CEP: 03143-003</p>
-                </div>
-                <div class="rodapecontato wow flipInX" data-wow-duration="1s" data-wow-delay="0.9s">
-                    <p>Contato:</p>
-                    <p>Telefone 11 2341-9299</p>
-                    <a href="comercial@ttitrevisan.com.br">comercial@ttitrevisan.com.br</a>
-                    <a href="contato@ttitrevisan.com.br">contato@ttitrevisan.com.br</a>
-                </div>
-            </div>
-            <div id="copyright">
-                Copyright © 2019 Trevisan Tecnologia Informática.
-            </div>
-        </div>
+        <?php
+            include "rodape.html";
+        ?>
     </footer>
 
     <script src="js/jstti.js"></script>
