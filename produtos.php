@@ -32,7 +32,7 @@
     <!--CORPOSITE-->
     <main id="corposite">
         <?php
-            include "quemsomos.html"
+            include "produtos.html"
         ?>
     </main>
 
