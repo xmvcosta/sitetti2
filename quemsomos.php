@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>TTI Trevisan Tecnologia Informática</title>
+    <title>TTI Trevisan Tecnologia Informática Quem Somos</title>
 </head>
 
 <body>
