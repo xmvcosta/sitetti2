@@ -65,7 +65,7 @@ nav ul{display:flex;}
 nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#fff;}
 nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 .menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;}
-.menuMobile-container{display: flex;flex-direction: column;align-items: center;justify-content: space-evenly;}
+.menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
     
     
@@ -166,7 +166,8 @@ address{
     margin-bottom:1%;
 }
 #myForm{
-    background:red;
+    background:#ccc;
+    color: #333;
     padding:1em;
 }
 #myForm .form-group{

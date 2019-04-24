@@ -19,14 +19,14 @@
 <body>
 
     <!--TOPOSITE-->
-    <header id="toposite">
+    <header id="toposite" class="wow slideInLeft">
         <?php
             include "pgs/topo.html";
         ?>
     </header>
 
     <!--BANNERSITE-->
-    <section id="bannersite">
+    <section id="bannersite" class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.5s">
         <?php
             include "pgs/banner.html";
         ?>
