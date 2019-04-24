@@ -62,12 +62,33 @@ h1,h2,h3,h4,h5,h6 {
 .menu {display:flex;align-items:center;justify-content: space-between;}
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
-nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#fff;}
+nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#fff;cursor: pointer;}
 nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
-.menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;}
+.menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;cursor: pointer;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
-    
+
+/*MENU REDES SOCIAIS*/
+.fab{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 3px;
+    line-height: 30px; 
+    text-align: center;
+    font-size: 1.5rem ;
+     /*font-weight: bold;*/
+   }
+.fa-youtube{
+background: #fff;    
+color:#bb0000;
+}
+.fa-facebook-f{
+background:#385998;
+}
+.fa-instagram{
+background: linear-gradient(180deg,#4c68d7,#fbad50,#bc2a8d);
+}
     
 
 /*BANNERSITE*/
@@ -98,7 +119,6 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 }
 
 .box p{
-    /*text-shadow: 2px 2px #999;*/
     font-weight: normal;
     text-indent: 2em;
     text-align: justify;
@@ -107,7 +127,6 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     margin: 5px;
     word-break: break-word;
     word-spacing: .1em;
-    
 }
 
 .box img{
