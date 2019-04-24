@@ -70,6 +70,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 
 /*MENU REDES SOCIAIS*/
 .fab{
+    cursor: pointer;
     width: 30px;
     height: 30px;
     border-radius: 5px;
@@ -194,10 +195,12 @@ address{
 }
 #myForm label{
     display:block;
+    margin:1%;
 }
 #myForm input[type="text"], #myForm input[type="email"], #myForm textarea{
     padding:.5em;
     width: 100%;
+    border-radius: 5px;
 }
 #myForm input[type="submit"]{
     background: #333;
