@@ -137,6 +137,8 @@ background: #bc2a8d;
 .box{
     background:#e6e6e6;
     color: #000;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 .box h1{
@@ -144,8 +146,11 @@ background: #bc2a8d;
     padding: 1%;
     color: #fff;
     letter-spacing: 2px;
+    font-size: 1.316em;
     text-shadow: 2px 2px 2px #000;
     text-align: center;    
+    border-radius: 5px;
+    border:1px solid #fff;
 }
 
 .box p{
@@ -291,7 +296,6 @@ address{
     #quemsomoscont{
         display: flex;
         justify-content: center;
-        
     }
 }
 /*MEDIA HD*/
