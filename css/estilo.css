@@ -16,8 +16,10 @@ img{
 h1,h2,h3,h4,h5,h6 {
     font-family: "Arial Black", sans-serif; 
 }
+a{text-decoration: none;color:#000;}
 
 /*CLASSES AUXILIARES*/
+
 .container{
     width:95%;
     margin: 0 auto;
@@ -31,6 +33,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 .flexcolumn{
     flex-direction: column;
+}
+
+#quemsomoscont{
+    padding: 1%;
+    text-align: center;
+}
+.quemsomos{
+    background: #f5f5f5;
+    margin: 1%;
+    padding: 1%;
+}
+.quemsomos a{
+    display: block;
 }
 
 /*TOPOSITE*/
@@ -72,25 +87,38 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 /*MENU REDES SOCIAIS*/
 .fab{
     cursor: pointer;
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px; 
+    border-radius: 50%;
     margin: 3px;
-    line-height: 30px; 
     text-align: center;
-    font-size: 1.5rem ;
-     /*font-weight: bold;*/
+    font-size: 1.3rem ;
    }
-.fa-youtube{
-background: #fff;    
-color:#bb0000;
-}
+
 .fa-facebook-f{
 background:#385998;
 }
-.fa-instagram{
-background: linear-gradient(180deg,#4c68d7,#fbad50,#bc2a8d);
+.fa-facebook-f:hover{
+    background:#fff;
+    color:#385998;
 }
+
+.fa-youtube{
+    background: red;
+    color:#fff;
+}
+.fa-youtube:hover{
+    background: #fff;    
+    color:#bb0000;
+}
+.fa-instagram{
+background: #bc2a8d;
+}
+.fa-instagram:hover{
+    background: #fff;
+    color:#bc2a8d;
+    }
     
 
 /*BANNERSITE*/
@@ -223,7 +251,8 @@ address{
 		position: absolute;
 	    left: 0;
 	    width: 100%;
-	    background-color: #2b4c99;
+        background-color: #2b4c99;
+        opacity: .9;
 	}
 
 	header {
@@ -252,6 +281,20 @@ address{
     }
     nav ul {
         display: flex !important;
+    }
+
+    .rodapeatendimento,.rodapeendereco{
+        border-right: 3px dashed #3b5998;
+    }
+    #rodapeitens h1{
+        border-top:none;
+
+    }
+
+    .quemsomoscont{
+        display: flex;
+        justify-content: center;
+        
     }
 }
 /*MEDIA HD*/
