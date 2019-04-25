@@ -101,7 +101,6 @@ background:#385998;
     background:#fff;
     color:#385998;
 }
-
 .fa-youtube{
     background: red;
     color:#fff;
@@ -154,7 +153,7 @@ background: #bc2a8d;
 }
 
 .box p{
-    font-weight: normal;
+    font-weight: 400;
     text-indent: 2em;
     text-align: justify;
     line-height: 1.6em;
