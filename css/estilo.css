@@ -5,7 +5,7 @@
 body{
     /*background: #1e1782;*/
     background: #000080;
-    font-size: 1rem;
+    font-size: 16px;
     color: #fff;
 }
 img{
@@ -52,7 +52,7 @@ a{text-decoration: none;color:#000;}
 /*TOPOSITE*/
 #topositeint{
        justify-content: space-between;
-       border-bottom: 1px solid #fff;
+       /*border-bottom: 1px solid #fff;*/
        margin-bottom: 1%;
 } 
     #topologo {
@@ -140,12 +140,12 @@ background: #bc2a8d;
 }
 
 .box h1{
-    background: #0000b3;
+    background: #09568d;
     padding: 1%;
     color: #fff;
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px #000;
-    
+    text-align: center;    
 }
 
 .box p{
@@ -288,7 +288,7 @@ address{
 
     }
 
-    .quemsomoscont{
+    #quemsomoscont{
         display: flex;
         justify-content: center;
         
