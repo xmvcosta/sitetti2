@@ -33,7 +33,7 @@
     <!--CORPOSITE-->
     <main id="corposite">
         <?php
-            include "pgs/contato.html"
+            include "pgs/contato.html";
         ?>
     </main>
   

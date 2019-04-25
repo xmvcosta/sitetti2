@@ -3,7 +3,8 @@
 
 /*GLOBAL*/
 body{
-    background: #1e1782;
+    /*background: #1e1782;*/
+    background: #000080;
     font-size: 1rem;
     color: #fff;
 }
@@ -68,13 +69,10 @@ a{text-decoration: none;color:#000;}
     #topocontato p{
         font-size: 1.5rem;
         text-shadow: 2px 2px #222;
-        
     }
 
 /*NAV */
-
 #menu{margin-bottom: 1%;background: #261da3;}
-
 .menu {display:flex;align-items:center;justify-content: space-between;}
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
@@ -119,7 +117,6 @@ background: #bc2a8d;
     background: #fff;
     color:#bc2a8d;
     }
-    
 
 /*BANNERSITE*/
 #bannersite{
@@ -138,14 +135,17 @@ background: #bc2a8d;
 }
 
 .box{
-    background:#f4f4f4;
+    background:#e6e6e6;
     color: #000;
 }
 
 .box h1{
-    background: #555;
-    padding: 5px;
-    margin: 5px;
+    background: #0000b3;
+    padding: 1%;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #000;
+    
 }
 
 .box p{
@@ -160,10 +160,7 @@ background: #bc2a8d;
 }
 
 .box img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 .box address{

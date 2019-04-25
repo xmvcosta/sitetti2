@@ -34,7 +34,7 @@
     <!--CORPOSITE-->
     <main id="corposite">
         <?php
-            include "pgs/quemsomos.html"
+            include "pgs/quemsomos.html";
         ?>
     </main>
 
