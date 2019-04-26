@@ -11,6 +11,7 @@
     /*--alternative2-bg-color: #000080;*/
     --bg-dark:#e6e6e6;
     --bg-light: #f2f2f2;
+    
   }
 /****GLOBAL****/
 body{background:var(--main-bg-color);color: #fff;}
@@ -151,6 +152,10 @@ background: #bc2a8d;
 #i-produtos{background: var(--third-bg-color);}
 #i-servicos{background: var(--fourth-bg-color);}
 
+#i-sobretti, #i-produtos, #i-servicos{
+    padding:1%;
+}
+
 /**QUEM SOMOS**/
 #quemsomoscont{
     padding: 1%;
@@ -168,32 +173,29 @@ background: #bc2a8d;
 
 /*RODAPESITE*/
 #rodapesite{
-    background-color:#1e1e1e;
-    color: #fff;
+    background-color:var(--fifth-bg-color);
+    color: lightgray;
     text-shadow: 2px 2px #000;
     text-align: center;
-    font-size: .8rem;
     padding: 5px;
     line-height: 1.6;
     letter-spacing: 1px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-    #rodapesite a{
-        text-decoration: none;
-        color: #fff;
-        text-shadow: 2px 2px #000;
-        padding: 5px;
-    }
-
-    #rodapesite h1{
+    #rodapesite a{text-decoration: none;color: lightgray;font-size: .9em;text-shadow: 2px 2px #000;padding: 5px;}
+    #rodapeitens h1{
+        color: white;
         border-top: 3px dashed #3b5998;
-        font-size: .8rem;
+        font-size: 1em;
     }
     .rodapeendereco,.rodapecontato,.rodapeatendimento{
         padding: 5px;
         flex:1;
     }
+    #rodapesite p{font-size: .9em;}
+
     #copyright{
     border-top: 1px solid #ccc;
     font-size: .8rem;
