@@ -133,8 +133,6 @@ background: #bc2a8d;
 
 /*CORPOSITE*/
 #corposite{
-    display: flex;
-    justify-content: center;
 }
 
 .box{
