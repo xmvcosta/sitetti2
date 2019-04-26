@@ -65,6 +65,7 @@ address{font-style: normal !important;}
     display:flex;
     justify-content: space-between;
     margin-bottom: 1%;
+    background:var(--alternative1-bg-color);
 } 
     #topologo {
         width: 116px;
