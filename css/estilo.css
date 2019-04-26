@@ -1,11 +1,10 @@
 /*RESET BÁSICO*/
-*{margin: 0;padding: 0;box-sizing: border-box;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;border: none;outline: none;font-weight: 300;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Verdana,Arial,Helvetica,sans-serif;border:none;outline:none;font-weight:300;font-size: 16px;}
 
 /*GLOBAL*/
 body{
     /*background: #1e1782;*/
     background: #000080;
-    font-size: 16px;
     color: #fff;
 }
 img{
@@ -47,6 +46,11 @@ a{text-decoration: none;color:#000;}
 }
 .quemsomos a{
     display: block;
+}
+
+/*FONTAWESOME*/
+.fa{
+    display:inline-block;
 }
 
 /*TOPOSITE*/
