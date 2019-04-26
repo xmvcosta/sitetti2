@@ -207,6 +207,13 @@ transition: all .51s linear;
     align-items: center;
     }
 
+#doautor{
+    font-size: .7em;
+}   
+#doautor i{
+    font-size: .7em;
+}    
+
 
 /*FORMULÀRIO*/
 #formulario{
