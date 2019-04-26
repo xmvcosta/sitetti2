@@ -1,63 +1,69 @@
-/*RESET BÁSICO*/
+/****RESET BÁSICO****/
 *{margin:0;padding:0;box-sizing:border-box;font-family:Verdana,Arial,Helvetica,sans-serif;border:none;outline:none;font-weight:300;font-size: 16px;}
-
-/*GLOBAL*/
-body{
-    /*background: #1e1782;*/
-    background: #000080;
-    color: #fff;
-}
-img{
-    max-width: 100%;
-    display: block;
-    margin: auto;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Arial Black", sans-serif; 
-}
+/****DEFININDO VARIAVEIS GLOBAIS****/
+:root {
+    --main-bg-color: #6a81f5;
+    --second-bg-color: #3655f2;
+    --third-bg-color: #0c29b8;
+    --fourth-bg-color: #061356;
+    --fifth-bg-color: #070c26;
+    --alternative1-bg-color: #000080;
+    /*--alternative2-bg-color: #000080;*/
+    --bg-dark:#e6e6e6;
+    --bg-light: #f2f2f2;
+  }
+/****GLOBAL****/
+body{background:var(--main-bg-color);color: #fff;}
+img{max-width: 100%;display: block;margin: auto;}
+h1,h2,h3,h4,h5,h6 {font-family: "Arial Black", sans-serif;}
 a{text-decoration: none;color:#000;}
+address{font-style: normal !important;}
 
-/*CLASSES AUXILIARES*/
+/****CLASSES AUXILIARES****/
+/*CONTAINER centraliza e define tamanho do width em %*/
+.container{width:95%;margin: 0 auto;overflow: hidden;}
 
-.container{
-    width:95%;
-    margin: 0 auto;
-    overflow: hidden;
+/*BOX utilizado para estilizar algumas partes do site*/
+.box{background:var(--bg-dark);color: #000;padding: 1%;margin-bottom: 1%;}
+
+.box h1{
+    background: var(--fourth-bg-color);
+    padding: 1%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.316em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;    
+    border-radius: 5px;
+    border:1px solid #fff;
 }
-.flexcontainer{
-    display:flex;
+
+.box p{
+    font-weight: 400;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.6em;
+    padding: 5px;
+    margin: 5px;
+    word-break: break-word;
+    word-spacing:  .1em;
 }
-.flexwrap{
-    flex-wrap: wrap;
+.box img{
+    margin: 1% auto;
 }
-.flexcolumn{
+.box address{
+    display: inline;
+}
+
+/*.flexcolumn{
     flex-direction: column;
-}
+}*/
 
-#quemsomoscont{
-    padding: 1%;
-    text-align: center;
-}
-.quemsomos{
-    background: #f5f5f5;
-    margin: 1%;
-    padding: 1%;
-}
-.quemsomos a{
-    display: block;
-}
-
-/*FONTAWESOME*/
-.fa{
-    display:inline-block;
-}
-
-/*TOPOSITE*/
+/****TOPOSITE****/
 #topositeint{
-       justify-content: space-between;
-       /*border-bottom: 1px solid #fff;*/
-       margin-bottom: 1%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
 } 
     #topologo {
         width: 116px;
@@ -65,9 +71,11 @@ a{text-decoration: none;color:#000;}
         padding: 10px;
     }
     #topocontato{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         flex:1;
         text-align: center;
-        justify-content: space-evenly;
     }
 
     #topocontato p{
@@ -87,6 +95,10 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
 
 /*MENU REDES SOCIAIS*/
+/*FONTAWESOME*/
+/*.fa{
+    display:inline-block;
+}*/
 .fab{
     cursor: pointer;
     width: 35px;
@@ -131,51 +143,28 @@ background: #bc2a8d;
     margin-bottom: 1%;
 }
 
-/*CORPOSITE*/
+/****CORPOSITE****/
 #corposite{
 }
+/**INDEX**/
+#i-sobretti{background: var(--second-bg-color);}
+#i-produtos{background: var(--third-bg-color);}
+#i-servicos{background: var(--fourth-bg-color);}
 
-.box{
-    background:#e6e6e6;
-    color: #000;
+/**QUEM SOMOS**/
+#quemsomoscont{
     padding: 1%;
-    margin-bottom: 1%;
+    text-align: center;
 }
-
-.box h1{
-    background: #09568d;
+.quemsomos{
+    background: var(--bg-light);
+    margin: 1%;
     padding: 1%;
-    color: #fff;
-    letter-spacing: 2px;
-    font-size: 1.316em;
-    text-shadow: 2px 2px 2px #000;
-    text-align: center;    
-    border-radius: 5px;
-    border:1px solid #fff;
+}
+.quemsomos a{
+    display: block;
 }
 
-.box p{
-    font-weight: 400;
-    text-indent: 2em;
-    text-align: justify;
-    line-height: 1.6em;
-    padding: 5px;
-    margin: 5px;
-    word-break: break-word;
-    word-spacing:  .1em;
-}
-
-.box img{
-    margin: 1% auto;
-}
-
-.box address{
-    display: inline;
-}
-
-address{
-    font-style: normal !important;
-}
 
 /*RODAPESITE*/
 #rodapesite{
