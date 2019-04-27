@@ -140,13 +140,13 @@ transition: all .51s linear;
 
 /*BANNERSITE*/
 #bannersite{
-    /*background: #777;*/
-    height: 30vh;
-    /*background-image: url(../img/manutencao-informatica.jpg);
-    background-position: center;
-    background-size: cover;*/
+    
     margin-bottom: 1%;
 }
+
+#bannersiteint{border: 1px solid #fff;height: 30vh;}
+
+
 /****SLIDE SHOW****/
 /****CORPOSITE****/
 #corposite{
