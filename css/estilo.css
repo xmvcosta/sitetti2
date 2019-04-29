@@ -56,11 +56,6 @@ address{font-style: normal !important;}
     display: inline;
 }
 
-/*.flexcolumn{
-    flex-direction: column;
-}*/
-
-/****TOPOSITE****/
 #topositeint{
     display:flex;
     justify-content: space-between;
@@ -150,14 +145,13 @@ transition: all .51s linear;
 
 /*BANNERSITE*/
 #bannersite{
-    
     margin-bottom: 1%;
 }
 
 #bannersiteint{border: 1px solid #fff;height: 30vh;}
 
-
 /****SLIDE SHOW****/
+
 /****CORPOSITE****/
 #corposite{
 }
@@ -192,7 +186,7 @@ transition: all .51s linear;
     text-shadow: 2px 2px #000;
     text-align: center;
     padding: 5px;
-    line-height: 1.6;
+    line-height: 1.6em;
     letter-spacing: 1px;
     display: flex;
     flex-direction: column;
