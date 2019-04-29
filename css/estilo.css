@@ -164,6 +164,70 @@ transition: all .51s linear;
     padding:2%;
 }
 
+/**SERVIÇOS**/
+.services-section{
+   /* background: url(../img/bg-services.jpg);
+    background-size: cover;
+    padding: 60px 0;*/
+  }
+  
+  .services-title{
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+  .border{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+  }
+  .services-container{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;*/
+  }
+  
+  .service-box{
+    /*max-width: 33.33%;*/
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    background: red;
+  }
+  
+  .service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+  }
+  .service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+  }
+  .service-box:hover .service-icon{
+    background: #82ccdd;
+    color: #ddd;
+  }
+  .service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .service-desc{
+    font-size: 14px;
+  }
+  
+  
 /**QUEM SOMOS**/
 #quemsomoscont{
     padding: 1%;
@@ -177,7 +241,6 @@ transition: all .51s linear;
 .quemsomos a{
     display: block;
 }
-
 
 /*RODAPESITE*/
 #rodapesite{
@@ -287,6 +350,18 @@ transition: all .51s linear;
 /*MEDIA TABLETS*/ 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+
+    /*services section*/
+    .services-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .service-box{
+          width: 50%;
+      }
+
     #rodapeitens{
         display: flex;
     }
@@ -310,6 +385,9 @@ transition: all .51s linear;
 /*MEDIA HD*/
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    .service-box{
+        width: 33.33%;
+    }
     /*.container{
         width: 992px;
     }*/
