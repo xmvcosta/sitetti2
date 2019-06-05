@@ -25,13 +25,6 @@
         ?>
     </header>
 
-    <!--BANNERSITE-->
-    <section id="bannersite">
-        <?php
-            include "pgs/banner.html";
-        ?>
-    </section>
-
     <!--CORPOSITE-->
     <main id="corposite">
         <?php

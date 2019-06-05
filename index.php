@@ -25,13 +25,6 @@
         ?>
     </header>
 
-    <!--BANNERSITE-->
-    <section id="bannersite" class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.5s">
-        <?php
-            include "pgs/banner.html";
-        ?>
-    </section>
-
     <!--CORPOSITE-->
     <main id="corposite">
         <?php

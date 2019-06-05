@@ -80,6 +80,10 @@ address{font-style: normal !important;}
         text-shadow: 2px 2px #222;
     }
 
+    #topocontato i{
+        font-size: 1.5rem;
+    }
+
 /*NAV */
 #menu{margin-bottom: 1%;background: #261da3;}
 .menu {display:flex;align-items:center;justify-content: space-between;}
@@ -164,7 +168,15 @@ transition: all .51s linear;
     padding:2%;
 }
 
-/**SERVIÇOS**/
+/**PRODUTOS INDEX**/
+    .produtos-title{
+        text-align: center;
+        color: #ddd;
+        text-transform: uppercase;
+        font-size: 2em;
+    }
+
+/**SERVIÇOS INDEX**/
 .services-section{
    /* background: url(../img/bg-services.jpg);
     background-size: cover;
@@ -270,12 +282,6 @@ transition: all .51s linear;
     align-items: center;
     }
 
-#doautor{
-    font-size: .7em;
-}   
-#doautor i{
-    font-size: .7em;
-}    
 
 
 /*FORMULÀRIO*/
