@@ -24,6 +24,6 @@ if (mail($to,$subject,$body,$header)){
     echo ("Email não enviado!");
 }
 
-
+header("Location: index.php");
 }
 ?>
