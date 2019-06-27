@@ -7,7 +7,7 @@ $email = addslashes($_POST['email']);
 $telefone = addslashes($_POST['telefone']);
 $mensagem = addslashes($_POST['message']);
 
-$to = "suporte@ttitrevisan.com.br";
+$to = "atendimento@ttitrevisan.com.br";
 $subject = "Contato - Web Site";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
@@ -26,4 +26,5 @@ if (mail($to,$subject,$body,$header)){
 
 
 }
+header("Location: index.php");
 ?>
