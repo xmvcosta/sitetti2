@@ -11,7 +11,6 @@
     /*--alternative2-bg-color: #000080;*/
     --bg-dark:#e6e6e6;
     --bg-light: #f2f2f2;
-    
   }
 /****GLOBAL****/
 body{background:var(--main-bg-color);color: #fff;}
@@ -33,9 +32,9 @@ address{font-style: normal !important;}
     color: #fff;
     font-weight: bold;
     display: block;
-    width: 120px;
+    width: 140px;
     margin: auto;
-
+    text-align: center;
 }
 
 /*BOX utilizado para estilizar algumas partes do site*/
@@ -61,19 +60,21 @@ address{font-style: normal !important;}
 }
 
 .box p{
-    
-    line-height: 1.6em;
-    letter-spacing: 1px;
-    text-align: justify;
     padding: 5px;
     margin: 5px;
+    font-weight: normal;
+    line-height: 1.6em;
+    text-align:justify; 
+    text-justify:inter-word; 
+    text-indent:2em;
+    word-wrap: break-word;
+    
 }
 .box img{
     margin: 1% auto;
     min-height: 150px;
     min-width: 150px;
     max-height: 400px;
-    
 }
 .box address{
     display: inline;
