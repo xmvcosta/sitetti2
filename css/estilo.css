@@ -18,6 +18,7 @@ img{max-width: 100%;display: block;margin: auto;}
 h1,h2,h3,h4,h5,h6 {font-family: "Arial Black", sans-serif;}
 a{text-decoration: none;color:#000;}
 address{font-style: normal !important;}
+li{line-height: 1.6;}
 
 /****CLASSES AUXILIARES****/
 /*CONTAINER centraliza e define tamanho do width em %*/
