@@ -56,22 +56,24 @@ address{font-style: normal !important;}
     font-size: 1.316em;
     text-shadow: 2px 2px 2px #000;
     text-align: center;    
-    border-radius: 5px;
     border:1px solid #fff;
+    border-radius: 5px;
 }
 
 .box p{
-    font-weight: 400;
-    text-indent: 2em;
-    text-align: justify;
+    
     line-height: 1.6em;
+    letter-spacing: 1px;
+    text-align: justify;
     padding: 5px;
     margin: 5px;
-    word-break: break-word;
-    word-spacing:  .1em;
 }
 .box img{
     margin: 1% auto;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 400px;
+    
 }
 .box address{
     display: inline;
@@ -166,20 +168,8 @@ transition: all .51s linear;
     color:#bc2a8d;
     transform:	scale(1.2)	rotate(-5deg);
 
-    }
-
-/*BANNERSITE*/
-#bannersite{
-    margin-bottom: 1%;
 }
 
-#bannersiteint{border: 1px solid #fff;height: 30vh;}
-
-/****SLIDE SHOW****/
-
-/****CORPOSITE****/
-#corposite{
-}
 /**INDEX**/
 #i-sobretti{background: var(--second-bg-color);}
 #i-produtos{background: var(--third-bg-color);}
@@ -194,20 +184,16 @@ transition: all .51s linear;
         text-align: center;
         color: #ddd;
         text-transform: uppercase;
+        text-shadow: 2px 2px 2px #000;
         font-size: 2em;
     }
 
 /**SERVIÇOS INDEX**/
-.services-section{
-   /* background: url(../img/bg-services.jpg);
-    background-size: cover;
-    padding: 60px 0;*/
-  }
-  
   .services-title{
     text-align: center;
     color: #ddd;
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
     font-size: 2em;
   }
   .border{
@@ -216,44 +202,21 @@ transition: all .51s linear;
     background: #82ccdd;
     margin: 40px auto;
   }
-  
   .service-box{
     padding: 10px;
     text-align: center;
     color: #ddd;
     cursor: pointer;
   }
-  
-  .service-icon{
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    border: 3px solid #82ccdd;
-    color: #82ccdd;
-    transform: rotate(45deg);
-    margin-bottom: 30px;
-    margin-top: 16px;
-    transition: 0.3s linear;
-  }
-  .service-icon i{
-    line-height: 70px;
-    transform: rotate(-45deg);
-    font-size: 26px;
-  }
-  .service-box:hover .service-icon{
-    background: orange;
-    color: #ddd;
-    border: 3px solid #000;
-  }
   .service-title{
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
     margin-bottom: 10px;
   }
   .service-desc{
     font-size: 14px;
   }
-  
   
 /**QUEM SOMOS**/
 #quemsomoscont{
@@ -302,8 +265,6 @@ transition: all .51s linear;
     justify-content: center;
     align-items: center;
     }
-
-
 
 /*FORMULÀRIO*/
 #formulario{
@@ -395,7 +356,6 @@ transition: all .51s linear;
     }
     #rodapeitens h1{
         border-top:none;
-
     }
 
     #quemsomoscont{
