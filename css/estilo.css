@@ -3,7 +3,7 @@
 
 /****GLOBAL****/
 body{background:var(--main-bg-color);color: #fff;}
-img{max-width: 100%;display: block;margin: auto;}
+img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 h1,h2,h3,h4,h5,h6 {font-family: "Arial Black", sans-serif;}
 a{text-decoration: none;color:#000;}
 address{font-style: normal !important;}
@@ -55,6 +55,9 @@ li{line-height: 1.6;}
     text-justify:inter-word; 
     text-indent:2em;
     word-wrap: break-word;
+    word-spacing: 5px;
+    
+    word-break: keep-all;
 }
 .box img{
     margin: 1% auto;
@@ -204,11 +207,11 @@ transition: all .51s linear;
     margin: 10px auto;
     padding: 1%;
     background: #3655f2;
-    border: 1px solid #000;
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
     text-align: center;
+    
 }
 
 /**PRODUTOS INDEX**/
