@@ -1,5 +1,5 @@
 /****RESET BÁSICO****/
-*{margin:0;padding:0;box-sizing:border-box;font-family:Verdana,Arial,Helvetica,sans-serif;border:none;outline:none;font-weight:300;font-size: 16px;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Verdana,Arial,Helvetica,sans-serif;border:none;outline:none;}
 /****DEFININDO VARIAVEIS GLOBAIS****/
 :root {
     --main-bg-color: #6a81f5;
@@ -24,16 +24,15 @@ address{font-style: normal !important;}
 .container{width:95%;margin: 0 auto;overflow: hidden;}
 
 .saibamais{
-    background: #3655f2;
-    border: 1px solid #000;
-    border-radius: 5px;
-    margin-top: 2%;
-    padding: 1%;
-    color: #fff;
-    font-weight: bold;
     display: block;
     width: 140px;
     margin: auto;
+    padding: 1%;
+    background: #3655f2;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -62,13 +61,11 @@ address{font-style: normal !important;}
 .box p{
     padding: 5px;
     margin: 5px;
-    font-weight: normal;
     line-height: 1.6em;
     text-align:justify; 
     text-justify:inter-word; 
     text-indent:2em;
     word-wrap: break-word;
-    
 }
 .box img{
     margin: 1% auto;
@@ -127,6 +124,10 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 #redessociais img{display:inline-block; width: 50px;height:50px;}
 #redessociais img:hover{
 transform:	scale(1.2)	rotate(-5deg);}
+
+.fa-check{
+    color:green;
+}
 
 .fab{
     cursor: pointer;
