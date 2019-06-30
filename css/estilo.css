@@ -2,7 +2,7 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:Verdana,Arial,Helvetica,sans-serif;border:none;outline:none;}
 
 /****GLOBAL****/
-body{background:var(--main-bg-color);color: #fff;}
+body{background:var(--fourth-bg-color);color: #fff;}
 img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 h1,h2,h3,h4,h5,h6 {font-family: "Arial Black", sans-serif;}
 a{text-decoration: none;color:#000;}
@@ -194,7 +194,7 @@ transition: all .51s linear;
 
 /****PAGINAS****/
 /**INDEX**/
-#i-produtos{background: var(--third-bg-color);}
+#i-produtos{background: var(--fourth-bg-color);}
 #i-servicos{background: var(--fourth-bg-color);}
 #i-produtos, #i-servicos{padding:2%;}
 
