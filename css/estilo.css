@@ -64,6 +64,7 @@ li{line-height: 1.6;}
     min-height: 150px;
     min-width: 150px;
     max-height: 400px;
+    box-shadow: 2px 2px 5px #333;
 }
 .box address{
     display: inline;
