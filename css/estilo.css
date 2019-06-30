@@ -122,8 +122,6 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     color:green;
 }
 
-
-
 /****RODAPE****/
 #rodapesite{
     background-color:var(--fifth-bg-color);
@@ -149,7 +147,6 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
         flex:1;
     }
     #rodapesite p{font-size: .9em;}
-
     #copyright{
     border-top: 1px solid #ccc;
     font-size: .8rem;
@@ -160,10 +157,6 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 
 /****PAGINAS****/
 /**INDEX**/
-#i-produtos{background: var(--fourth-bg-color);}
-#i-servicos{background: var(--fourth-bg-color);}
-#i-produtos, #i-servicos{padding:2%;}
-
 .saibamais{
     display: block;
     width: 140px;
@@ -175,15 +168,17 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     font-weight: bold;
     text-align: center;
 }
-
+#i-produtos{background: var(--fourth-bg-color);}
+#i-servicos{background: var(--fourth-bg-color);}
+#i-produtos, #i-servicos{padding:2%;}
 .border{
     width: 160px;
     height: 2px;
-    background: #82ccdd;
+    background: #fff;
     margin: 40px auto;
   }
 
-/**PRODUTOS INDEX**/
+/**INDEX SECTIONS**/
     .sections-title{
         text-align: center;
         color: #ddd;
@@ -192,8 +187,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
         font-size: 2em;
     }
 
-/**SERVIÇOS INDEX**/
- 
+/**SERVIÇOS INDEX
   .service-box{
     padding: 10px;
     text-align: center;
@@ -208,7 +202,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
   }
   .service-desc{
     font-size: 14px;
-  }
+  }**/
   
 /**QUEM SOMOS**/
 #quemsomoscont{
