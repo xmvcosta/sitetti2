@@ -59,31 +59,23 @@ li{line-height: 1.6;}
     word-spacing: 5px;
     word-break: keep-all;
 }
-.box img{
-    margin: 1% auto;
-    min-height: 150px;
-    min-width: 150px;
-    max-height: 400px;
-    box-shadow: 2px 2px 5px #333;
-}
-.box address{
-    display: inline;
-}
+.box img{margin: 1% auto;min-height: 150px;min-width: 150px;max-height: 400px;box-shadow: 2px 2px 5px #333;}
+.box address{display: inline;}
 
 /*TOPO*/
 #toposite{background:var(--alternative1-bg-color);}
 #topositeint{display:flex;justify-content: space-between;margin-bottom: 1%;background:var(--alternative1-bg-color);} 
-    #topologo{width: 116px;height: 116px;padding: 10px;}
-    #topocontato{display:flex;flex-direction: column;justify-content: space-evenly;flex:1;text-align: center;}
-    #topocontato p{font-size: 1.5rem;text-shadow: 2px 2px #222;}
-    #topocontato i{font-size: 1.5rem;}
+#topologo{width: 116px;height: 116px;padding: 10px;}
+#topocontato{display:flex;flex-direction: column;justify-content: space-evenly;flex:1;text-align: center;}
+#topocontato p{font-size: 1.5rem;text-shadow: 2px 2px #222;}
+#topocontato i{font-size: 1.5rem;}
 
 /*NAV */
 #menu{margin-bottom: 1%;}
 .menu {display:flex;align-items:center;justify-content: space-between;}
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
-nav a{display:block;padding:15px;font-weight:bold;text-decoration:none;text-transform:uppercase;color:#fff;cursor: pointer;transition: all 1s linear;}
+nav a{display:block;padding:15px;font-weight:bold;text-decoration:none;text-transform:uppercase;color:#fff;text-shadow:2px 2px 5px #333;cursor: pointer;transition: all 1s linear;}
 nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 .menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;cursor: pointer;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
