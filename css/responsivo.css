@@ -1,0 +1,86 @@
+/****MEDIAS****/
+/*MEDIA MOBILE*/
+@media only screen and (max-width: 576px) {
+ 
+}
+
+@media(max-width:767px){
+    nav ul {
+		flex-direction: column;
+		display:none;
+		position: absolute;
+	    left: 0;
+	    width: 100%;
+        background-color: #2b4c99;
+        opacity: .9;
+	}
+
+	header {
+		height:auto;
+	}
+
+	.menuMobile {
+		display:flex !important;
+		flex-direction: column;
+		justify-content:space-around;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .container{
+        width: 90%;
+    }
+}
+
+/*MEDIA TABLETS*/ 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+    /*services section*/
+    .services-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .service-box{
+          width: 50%;
+      }
+
+    #rodapeitens{
+        display: flex;
+    }
+    nav ul {
+        display: flex !important;
+    }
+
+    .rodapeatendimento,.rodapeendereco{
+        border-right: 3px dashed #3b5998;
+    }
+    #rodapeitens h1{
+        border-top:none;
+    }
+
+    #quemsomoscont{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*MEDIA HD*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .service-box{
+        width: 33.33%;
+    }
+    /*.container{
+        width: 992px;
+    }*/
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .container{
+        width: 85%;
+    }
+ }
