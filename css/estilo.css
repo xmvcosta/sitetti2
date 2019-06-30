@@ -184,7 +184,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
   }
 
 /**PRODUTOS INDEX**/
-    .produtos-title{
+    .sections-title{
         text-align: center;
         color: #ddd;
         text-transform: uppercase;
@@ -193,13 +193,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     }
 
 /**SERVIÇOS INDEX**/
-  .services-title{
-    text-align: center;
-    color: #ddd;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #000;
-    font-size: 2em;
-  }
+ 
   .service-box{
     padding: 10px;
     text-align: center;
